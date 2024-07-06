@@ -1,0 +1,99 @@
+{
+  "mod_elements": [
+    {
+      "name": "HjjhArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjjh_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elda/models/item/hjjh_armor_helmet.json",
+          "src/main/resources/assets/elda/models/item/hjjh_armor_chestplate.json",
+          "src/main/resources/assets/elda/models/item/hjjh_armor_boots.json",
+          "src/main/java/net/mcreator/elda/item/HjjhArmorItem.java",
+          "src/main/resources/assets/elda/models/item/hjjh_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "HjjhArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjjh_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elda/recipes/hjjh_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HjjhArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjjh_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elda/recipes/hjjh_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HjjhArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjjh_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elda/recipes/hjjh_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HjjhArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hjjh_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elda/recipes/hjjh_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.elda.hjjh_armor_chestplate": "Hjjh Chestplate",
+      "item.elda.hjjh_armor_leggings": "Hjjh Leggings",
+      "item.elda.hjjh_armor_boots": "Hjjh Boots",
+      "item.elda.hjjh_armor_helmet": "Hjjh Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "elda",
+    "modName": "eLDA",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.elda"
+  },
+  "mcreatorVersion": 202400118518
+}
